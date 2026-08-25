@@ -706,3 +706,18 @@ $('#badgeWall').innerHTML=BADGES.map(b=>`
     <div class="badge-ic" style="background:${b.c}"><svg viewBox="0 0 24 24" width="24" height="24">${b.svg}</svg></div>
     <span>${b.n}</span>
   </div>`).join('');
+
+/* ═══════════════ URL 参数：iframe 嵌入支持 ═══════════════
+   #embed=1           隐藏舞台标题与标注栏，仅保留手机
+   #tab=garden|record|insight|discover|me   跳过引导直达指定 Tab */
+(function(){
+  try{
+    const h=new URLSearchParams(location.hash.slice(1));
+    if(h.get('embed'))document.body.classList.add('embed');
+    const tab=h.get('tab');
+    if(tab){
+      enterApp();
+      if(tab!=='garden'&&$('#page-'+tab))switchTab('page-'+tab);
+    }
+  }catch(e){}
+})();

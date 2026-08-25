@@ -594,3 +594,9 @@ input[type=range]:active::-webkit-slider-thumb{transform:scale(1.25)}
 @media (max-width:440px){
   .phone{transform:scale(.82)}
 }
+
+/* ═══════════════ iframe 嵌入模式 ═══════════════ */
+body.embed{background:transparent}
+body.embed .stage{padding:0;min-height:auto;background:transparent}
+body.embed .stage-head,body.embed .annotations{display:none}
+body.embed .phone{box-shadow:0 0 0 11px #1c1917,0 0 0 13px #3a3633,0 24px 60px rgba(28,25,23,.28)}
