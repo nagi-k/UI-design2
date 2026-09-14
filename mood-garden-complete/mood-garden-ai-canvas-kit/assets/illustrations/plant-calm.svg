@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <linearGradient id="calmLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7FBFA0"/>
+      <stop offset="100%" stop-color="#5BA68A"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="215" rx="55" ry="14" fill="#E0E8E3" opacity="0.6"/>
+  <path d="M100 215 V130" stroke="#3D7A66" stroke-width="6" stroke-linecap="round"/>
+  <path d="M100 170 Q70 150 55 170 Q70 195 100 170Z" fill="url(#calmLeaf)"/>
+  <path d="M100 145 Q130 125 145 145 Q130 170 100 145Z" fill="url(#calmLeaf)"/>
+  <path d="M100 120 Q75 95 60 115 Q80 140 100 120Z" fill="url(#calmLeaf)"/>
+  <path d="M100 105 Q125 85 140 105 Q120 130 100 105Z" fill="url(#calmLeaf)"/>
+  <circle cx="88" cy="98" r="3" fill="#2E5E4D"/>
+  <circle cx="112" cy="98" r="3" fill="#2E5E4D"/>
+  <path d="M94 108 Q100 112 106 108" stroke="#2E5E4D" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

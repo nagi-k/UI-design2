@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <linearGradient id="happyPetals" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2C94C"/>
+      <stop offset="100%" stop-color="#F2994A"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="215" rx="55" ry="14" fill="#E0E8E3" opacity="0.6"/>
+  <path d="M100 215 V140" stroke="#3D7A66" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(100,105)">
+    <ellipse cx="0" cy="-35" rx="22" ry="35" fill="url(#happyPetals)" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-35" rx="22" ry="35" fill="url(#happyPetals)" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-35" rx="22" ry="35" fill="url(#happyPetals)" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-35" rx="22" ry="35" fill="url(#happyPetals)" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-35" rx="22" ry="35" fill="url(#happyPetals)" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="18" fill="#6B4F1B"/>
+    <circle cx="-6" cy="-4" r="3" fill="#FFF"/>
+    <circle cx="6" cy="-4" r="3" fill="#FFF"/>
+    <path d="M-8 5 Q0 12 8 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

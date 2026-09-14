@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mood Garden 截图导航</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f5;padding:40px 24px;color:#2d3436;line-height:1.6}
+  h1{font-size:26px;margin-bottom:8px}
+  p.intro{color:#636e72;margin-bottom:28px;max-width:640px}
+  .tip{background:#e8f5e9;border-left:4px solid #3d7a66;padding:14px 18px;border-radius:8px;margin-bottom:28px;max-width:640px}
+  .tip b{color:#3d7a66}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;max-width:900px}
+  .card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 4px 16px rgba(0,0,0,.06);display:flex;flex-direction:column;gap:10px}
+  .card h3{font-size:17px}
+  .card p{font-size:13px;color:#636e72}
+  .card a{display:inline-flex;align-items:center;justify-content:center;height:40px;background:#3d7a66;color:#fff;text-decoration:none;border-radius:10px;font-size:14px;font-weight:500;margin-top:4px}
+  .card a:hover{background:#2e5e4d}
+</style>
+</head>
+<body>
+  <h1>Mood Garden 情绪花园 · 截图导航</h1>
+  <p class="intro">点击下方按钮打开对应页面，页面会自动撑开至完整高度，无需滚动即可截图。</p>
+  <div class="tip">
+    <b>使用方法：</b>每个链接都自带 <code>#screenshot=1</code> 参数。打开后，用手机尺寸（393 px 宽）截图整个浏览器窗口，即可得到完整页面。建议按 <code>Cmd/Ctrl + Shift + 4</code> 或浏览器开发者工具的设备模式截图。
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>花园首页</h3>
+      <p>展示花园场景、今日植物、快捷入口。</p>
+      <a href="./index.html#screenshot=1&tab=garden" target="_blank">打开花园首页</a>
+    </div>
+    <div class="card">
+      <h3>记录页</h3>
+      <p>情绪选择、输入、生成植物结果。</p>
+      <a href="./index.html#screenshot=1&tab=record" target="_blank">打开记录页</a>
+    </div>
+    <div class="card">
+      <h3>洞察页</h3>
+      <p>趋势图、环形图、关键词云、成就。</p>
+      <a href="./index.html#screenshot=1&tab=insight" target="_blank">打开洞察页</a>
+    </div>
+    <div class="card">
+      <h3>发现页</h3>
+      <p>植物图鉴、冥想、社区内容。</p>
+      <a href="./index.html#screenshot=1&tab=discover" target="_blank">打开发现页</a>
+    </div>
+    <div class="card">
+      <h3>我的页</h3>
+      <p>个人信息、数据、会员、设置列表。</p>
+      <a href="./index.html#screenshot=1&tab=me" target="_blank">打开我的页</a>
+    </div>
+    <div class="card">
+      <h3>普通嵌入模式</h3>
+      <p>保留手机外框，内容可滚动，用于演示。</p>
+      <a href="./index.html#embed=1&tab=garden" target="_blank">打开嵌入模式</a>
+    </div>
+  </div>
+</body>
+</html>
