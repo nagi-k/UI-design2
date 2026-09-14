@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <linearGradient id="cactusBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5BA68A"/>
+      <stop offset="100%" stop-color="#3D7A66"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="215" rx="55" ry="14" fill="#E0E8E3" opacity="0.6"/>
+  <path d="M100 210 V90" stroke="url(#cactusBody)" stroke-width="34" stroke-linecap="round"/>
+  <path d="M83 130 Q50 120 50 90 Q50 70 70 65" stroke="url(#cactusBody)" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <path d="M117 145 Q150 135 150 105 Q150 85 130 80" stroke="url(#cactusBody)" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <circle cx="88" cy="95" r="4" fill="#2E5E4D"/>
+  <circle cx="112" cy="95" r="4" fill="#2E5E4D"/>
+  <path d="M92 108 Q100 103 108 108" stroke="#2E5E4D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M70 65 L78 70 M70 65 L78 60" stroke="#2E5E4D" stroke-width="2" stroke-linecap="round"/>
+  <path d="M130 80 L138 85 M130 80 L138 75" stroke="#2E5E4D" stroke-width="2" stroke-linecap="round"/>
+</svg>
