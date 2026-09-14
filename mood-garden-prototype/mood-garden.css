@@ -600,3 +600,19 @@ body.embed{background:transparent}
 body.embed .stage{padding:0;min-height:auto;background:transparent}
 body.embed .stage-head,body.embed .annotations{display:none}
 body.embed .phone{box-shadow:0 0 0 11px #1c1917,0 0 0 13px #3a3633,0 24px 60px rgba(28,25,23,.28)}
+
+/* ═══════════════ 截图模式：页面自动撑开，无需滚动 ═══════════════ */
+body.screenshot{background:#f5f5f5}
+body.screenshot .stage{padding:0;min-height:auto;background:#f5f5f5}
+body.screenshot .stage-head,body.screenshot .annotations{display:none}
+body.screenshot .phone-wrap{gap:0;padding:0;min-height:auto;justify-content:center}
+body.screenshot .phone{height:auto;min-height:auto;overflow:visible;
+  box-shadow:0 0 0 11px #1c1917,0 0 0 13px #3a3633,0 40px 80px rgba(28,25,23,.35),0 12px 28px rgba(28,25,23,.2)}
+body.screenshot .viewport{position:relative;width:100%;height:auto;overflow:visible}
+body.screenshot .screen{position:relative;width:100%;height:auto;overflow:visible}
+body.screenshot .page{position:relative;height:auto;overflow:visible;padding:66px 20px 20px}
+body.screenshot .tabbar{position:relative;left:auto;right:auto;bottom:auto;margin:0 14px 16px}
+body.screenshot .home-indicator{display:none}
+@media (max-width:860px){
+  body.screenshot .phone{transform:none}
+}

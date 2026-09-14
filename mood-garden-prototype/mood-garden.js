@@ -709,11 +709,13 @@ $('#badgeWall').innerHTML=BADGES.map(b=>`
 
 /* ═══════════════ URL 参数：iframe 嵌入支持 ═══════════════
    #embed=1           隐藏舞台标题与标注栏，仅保留手机
+   #screenshot=1      截图模式：页面内容自动撑开，无需滚动
    #tab=garden|record|insight|discover|me   跳过引导直达指定 Tab */
 (function(){
   try{
     const h=new URLSearchParams(location.hash.slice(1));
     if(h.get('embed'))document.body.classList.add('embed');
+    if(h.get('screenshot'))document.body.classList.add('screenshot');
     const tab=h.get('tab');
     if(tab){
       enterApp();
